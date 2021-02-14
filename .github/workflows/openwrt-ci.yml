@@ -4356,7 +4356,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-squid is not set
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks is not set
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan is not set
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2 is not set
@@ -5113,8 +5113,8 @@ jobs:
           #
           # Project V
           #
-          CONFIG_PACKAGE_v2ray-plugin=y
-          CONFIG_v2ray-plugin_INCLUDE_GOPROXY=y
+          # CONFIG_PACKAGE_v2ray-plugin=y
+          # CONFIG_v2ray-plugin_INCLUDE_GOPROXY=y
           # end of Project V
 
           #
